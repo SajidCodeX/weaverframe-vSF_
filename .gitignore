@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables — NEVER commit these
+.env
+.env.*
+!.env.example
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+/src/generated/prisma
+
+# Temporary scratch and test scripts
+scratch*
+scratch/
+test-*
+check-*
+check.ts
+check_admin.ts
+cleanup-activities.ts
+cleanup.sql
+distribute-leads.ts
+fix-assignments.ts
+sync-now.ts
+trigger-sync.ts
+dev_server*.log
+
+# Scratch and Testing files
+scratch-*
+test-*
+check-*
+cleanup-*
+*.log
+git_history*.txt
+*.csv
+*.cjs
+sync-now.ts
+trigger-sync.ts
+distribute-leads.ts
+reset-dummy-status.ts
+clear-reviews.ts
